@@ -13,7 +13,6 @@ body {
     border: 0px;
     color: white;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
     padding: 18px 35px;
 }
@@ -124,7 +123,12 @@ main{
 .about-info{
     text-align: center;
 }
+
+/* Skill Related style */
 #What-i-do{
     padding: 30px 150px;
-    
+}
+.skill-container{
+    text-align: start;
+    display: flex;
 }
