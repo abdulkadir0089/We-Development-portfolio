@@ -77,7 +77,6 @@ nav a {
   background-image: url("../images/header_bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
-  /* background-size: cover; */
 }
 
 /* .banner-content {
@@ -116,6 +115,10 @@ nav a {
 }
 
 /* main section style */
+
+main section {
+  margin: 130px;
+}
 
 /* about section style */
 .about {
@@ -163,5 +166,21 @@ nav a {
 }
 .resume-container {
   display: flex;
-  gap: 15px;
+  gap: 50px;
+}
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+}
+.resume-item-institute {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.resume-item-description {
+  color: #757575;
+}
+.download-CV {
+  text-align: center;
+  margin-top: 50px;
 }
